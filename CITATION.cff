@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use the Pavan Krovvidi FingerWave Neural Network, please cite it as below."
+title: "Pavan Krovvidi FingerWave Neural Network: A Biologically Inspired, Boundary-Seeded Neural PDE"
+type: software
+authors:
+  - family-names: "Krovvidi"
+    given-names: "Pavan Kumar"
+    email: "pavank9848@gmail.com"
+    orcid: "https://orcid.org/0009-0001-3286-7173"
+version: "1.0.0"
+date-released: "2026-10-24"
+license: Apache-2.0
+repository-code: "https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave"
+abstract: >-
+  A biologically inspired neural architecture modelled on fingerprint formation.
+  A confidence-seeded, stable reaction-diffusion PDE propagates information from
+  reliable regions into uncertain ones, and a differentiable topological loss
+  conserves cores and deltas. On 500 synthetic degraded fingerprints it reduced
+  topological errors from 5.8% to 4.0% versus a same-size U-Net (3 seeds).
+keywords:
+  - FingerWave
+  - Pavan Krovvidi
+  - biologically inspired AI
+  - neural PDE
+  - fingerprint
+  - topology
+  - reaction-diffusion

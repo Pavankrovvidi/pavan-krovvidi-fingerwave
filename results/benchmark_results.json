@@ -1,0 +1,186 @@
+{
+ "Classic": [
+  {
+   "angle_all": 8.324344635009766,
+   "angle_occ": 16.98127555847168,
+   "angle_vis": 6.809103965759277,
+   "precision": 0.4631336405529954,
+   "recall": 0.40039840637450197,
+   "TER": 0.444,
+   "class_acc": 0.556,
+   "spurious_per_img": 0.932
+  }
+ ],
+ "Input (no processing)": [
+  {
+   "angle_all": 18.145462036132812,
+   "angle_occ": 41.11594772338867,
+   "angle_vis": 14.124890327453613,
+   "precision": 0.02220625391159222,
+   "recall": 0.954183266932271,
+   "TER": 1.0,
+   "class_acc": 0.0,
+   "spurious_per_img": 84.366
+  }
+ ],
+ "U-Net": [
+  {
+   "angle_all": 4.786823272705078,
+   "angle_occ": 7.650710105895996,
+   "angle_vis": 4.285550594329834,
+   "precision": 0.9334719334719335,
+   "recall": 0.8944223107569721,
+   "TER": 0.054,
+   "class_acc": 0.946,
+   "spurious_per_img": 0.128
+  },
+  {
+   "angle_all": 4.77231502532959,
+   "angle_occ": 7.5924530029296875,
+   "angle_vis": 4.278700351715088,
+   "precision": 0.9303534303534303,
+   "recall": 0.8914342629482072,
+   "TER": 0.05,
+   "class_acc": 0.95,
+   "spurious_per_img": 0.134
+  },
+  {
+   "angle_all": 4.815090656280518,
+   "angle_occ": 7.746588706970215,
+   "angle_vis": 4.301984786987305,
+   "precision": 0.9263157894736842,
+   "recall": 0.8764940239043825,
+   "TER": 0.07,
+   "class_acc": 0.93,
+   "spurious_per_img": 0.14
+  }
+ ],
+ "U-Net + topo": [
+  {
+   "angle_all": 4.726882457733154,
+   "angle_occ": 7.577648162841797,
+   "angle_vis": 4.227906703948975,
+   "precision": 0.94258872651357,
+   "recall": 0.899402390438247,
+   "TER": 0.05,
+   "class_acc": 0.95,
+   "spurious_per_img": 0.11
+  },
+  {
+   "angle_all": 4.756929874420166,
+   "angle_occ": 7.629116535186768,
+   "angle_vis": 4.254204750061035,
+   "precision": 0.9301848049281314,
+   "recall": 0.9023904382470119,
+   "TER": 0.05,
+   "class_acc": 0.95,
+   "spurious_per_img": 0.136
+  },
+  {
+   "angle_all": 4.7712082862854,
+   "angle_occ": 7.643857002258301,
+   "angle_vis": 4.268402576446533,
+   "precision": 0.9329140461215933,
+   "recall": 0.8864541832669323,
+   "TER": 0.058,
+   "class_acc": 0.942,
+   "spurious_per_img": 0.128
+  }
+ ],
+ "FingerWave": [
+  {
+   "angle_all": 4.686637878417969,
+   "angle_occ": 7.393083095550537,
+   "angle_vis": 4.2129225730896,
+   "precision": 0.9425051334702259,
+   "recall": 0.9143426294820717,
+   "TER": 0.038,
+   "class_acc": 0.962,
+   "spurious_per_img": 0.112
+  },
+  {
+   "angle_all": 4.71829080581665,
+   "angle_occ": 7.396175861358643,
+   "angle_vis": 4.249574661254883,
+   "precision": 0.9346938775510204,
+   "recall": 0.9123505976095617,
+   "TER": 0.04,
+   "class_acc": 0.96,
+   "spurious_per_img": 0.128
+  },
+  {
+   "angle_all": 4.655462741851807,
+   "angle_occ": 7.297712326049805,
+   "angle_vis": 4.192984104156494,
+   "precision": 0.9376278118609407,
+   "recall": 0.9133466135458167,
+   "TER": 0.042,
+   "class_acc": 0.958,
+   "spurious_per_img": 0.122
+  }
+ ],
+ "FingerWave - seeding": [
+  {
+   "angle_all": 5.245594501495361,
+   "angle_occ": 8.580276489257812,
+   "angle_vis": 4.6619181632995605,
+   "precision": 0.8845315904139434,
+   "recall": 0.8087649402390438,
+   "TER": 0.098,
+   "class_acc": 0.902,
+   "spurious_per_img": 0.212
+  },
+  {
+   "angle_all": 18.539854049682617,
+   "angle_occ": 19.096664428710938,
+   "angle_vis": 18.442394256591797,
+   "precision": 0.0,
+   "recall": 0.0,
+   "TER": 0.822,
+   "class_acc": 0.178,
+   "spurious_per_img": 0.11
+  },
+  {
+   "angle_all": 6.425814628601074,
+   "angle_occ": 10.074013710021973,
+   "angle_vis": 5.787261962890625,
+   "precision": 0.7,
+   "recall": 0.5647410358565738,
+   "TER": 0.21,
+   "class_acc": 0.79,
+   "spurious_per_img": 0.486
+  }
+ ],
+ "FingerWave - anisotropy": [
+  {
+   "angle_all": 4.679435729980469,
+   "angle_occ": 7.338421821594238,
+   "angle_vis": 4.2140278816223145,
+   "precision": 0.9463917525773196,
+   "recall": 0.9143426294820717,
+   "TER": 0.034,
+   "class_acc": 0.966,
+   "spurious_per_img": 0.104
+  },
+  {
+   "angle_all": 4.751950263977051,
+   "angle_occ": 7.316964149475098,
+   "angle_vis": 4.302989959716797,
+   "precision": 0.9422680412371134,
+   "recall": 0.9103585657370518,
+   "TER": 0.042,
+   "class_acc": 0.958,
+   "spurious_per_img": 0.112
+  },
+  {
+   "angle_all": 4.657647132873535,
+   "angle_occ": 7.3123884201049805,
+   "angle_vis": 4.192982196807861,
+   "precision": 0.945360824742268,
+   "recall": 0.9133466135458167,
+   "TER": 0.042,
+   "class_acc": 0.958,
+   "spurious_per_img": 0.106
+  }
+ ]
+}

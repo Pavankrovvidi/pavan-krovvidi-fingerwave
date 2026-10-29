@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pavan-krovvidi-fingerwave"
+version = "1.0.0"
+description = "Pavan Krovvidi FingerWave Neural Network: a biologically inspired, boundary-seeded neural PDE. Every life has a unique print. So does every prediction."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Pavan Kumar Krovvidi", email = "pavank9848@gmail.com" }]
+maintainers = [{ name = "Pavan Kumar Krovvidi", email = "pavank9848@gmail.com" }]
+requires-python = ">=3.9"
+dependencies = ["torch>=2.0"]
+keywords = [
+  "FingerWave", "Pavan Krovvidi", "neural PDE", "biologically inspired AI",
+  "fingerprint", "orientation field", "topology", "reaction-diffusion", "physics-informed",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.5"]
+dev = ["pytest>=7", "matplotlib>=3.5"]
+
+[project.urls]
+Homepage = "https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave"
+Repository = "https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave"
+ORCID = "https://orcid.org/0009-0001-3286-7173"
+Author = "https://www.linkedin.com/in/pavan-kumar-krovvidi-927290250"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pavan_krovvidi_fingerwave = ["weights/*.pt"]
