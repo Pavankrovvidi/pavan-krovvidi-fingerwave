@@ -5,6 +5,7 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](pyproject.toml)
 [![Author](https://img.shields.io/badge/author-Pavan%20Kumar%20Krovvidi-1f6f8b)](https://www.linkedin.com/in/pavan-kumar-krovvidi-927290250)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23766123.svg)](https://doi.org/10.5281/zenodo.23766123)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--3286--7173-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0001-3286-7173)
 
 **A biologically inspired, boundary-seeded neural PDE, conceived and created by [Pavan Kumar Krovvidi](https://www.linkedin.com/in/pavan-kumar-krovvidi-927290250).**
@@ -98,7 +99,7 @@ If you use this work, please cite it. GitHub's **"Cite this repository"** button
   title   = {Pavan Krovvidi FingerWave Neural Network: A Biologically Inspired,
              Boundary-Seeded Neural PDE},
   year    = {2026},
-  version = {1.0.0},
+  doi     = {10.5281/zenodo.23766123},
   url     = {https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave}
 }
 ```

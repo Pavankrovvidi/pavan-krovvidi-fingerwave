@@ -7,9 +7,14 @@ authors:
     given-names: "Pavan Kumar"
     email: "pavank9848@gmail.com"
     orcid: "https://orcid.org/0009-0001-3286-7173"
-version: "1.0.0"
-date-released: "2026-10-24"
+version: "1.0.1"
+doi: "10.5281/zenodo.23766123"
+date-released: "2026-10-29"
 license: Apache-2.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23766123"
+    description: "Zenodo concept DOI (all versions)"
 repository-code: "https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave"
 abstract: >-
   A biologically inspired neural architecture modelled on fingerprint formation.

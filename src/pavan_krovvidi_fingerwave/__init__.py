@@ -18,10 +18,11 @@ from .network import PavanKrovvidiFingerWaveNetwork, UNet
 from .pde import WavefrontPDELayer
 from .topo_loss import count_defects, ginzburg_landau_energy, soft_charge_density, topological_loss
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "Pavan Kumar Krovvidi"
 __email__ = "pavank9848@gmail.com"
 __orcid__ = "https://orcid.org/0009-0001-3286-7173"
+__doi__ = "https://doi.org/10.5281/zenodo.23766123"
 __license__ = "Apache-2.0"
 __credits__ = "Conceived and created by Pavan Kumar Krovvidi"
 __algorithm__ = "Pavan Krovvidi FingerWave Neural Network"
@@ -32,7 +33,7 @@ __all__ = [
 ]
 
 _CITATION = """Krovvidi, P. K. (2026). Pavan Krovvidi FingerWave Neural Network: A Biologically
-Inspired, Boundary-Seeded Neural PDE (Version 1.0.0). https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave
+Inspired, Boundary-Seeded Neural PDE Zenodo. https://doi.org/10.5281/zenodo.23766123
 
 @software{krovvidi2026fingerwave,
   author  = {Krovvidi, Pavan Kumar},
@@ -40,7 +41,7 @@ Inspired, Boundary-Seeded Neural PDE (Version 1.0.0). https://github.com/Pavankr
   title   = {Pavan Krovvidi FingerWave Neural Network: A Biologically Inspired,
              Boundary-Seeded Neural PDE},
   year    = {2026},
-  version = {1.0.0},
+  doi     = {10.5281/zenodo.23766123},
   url     = {https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave},
   license = {Apache-2.0}
 }"""
@@ -60,6 +61,7 @@ def about():
 
   Created by : Pavan Kumar Krovvidi  ({__email__})
   ORCID      : {__orcid__}
+  DOI        : {__doi__}
   Inspiration: fingerprint formation in the womb. Ridges start at a few reliable
                initiation sites and travel inward as waves; cores and deltas form
                where the waves meet.

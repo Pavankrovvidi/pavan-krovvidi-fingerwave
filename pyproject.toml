@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pavan-krovvidi-fingerwave"
-version = "1.0.0"
+version = "1.0.1"
 description = "Pavan Krovvidi FingerWave Neural Network: a biologically inspired, boundary-seeded neural PDE. Every life has a unique print. So does every prediction."
 readme = "README.md"
 license = "Apache-2.0"
@@ -34,6 +34,7 @@ dev = ["pytest>=7", "matplotlib>=3.5"]
 [project.urls]
 Homepage = "https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave"
 Repository = "https://github.com/Pavankrovvidi/pavan-krovvidi-fingerwave"
+DOI = "https://doi.org/10.5281/zenodo.23766123"
 ORCID = "https://orcid.org/0009-0001-3286-7173"
 Author = "https://www.linkedin.com/in/pavan-kumar-krovvidi-927290250"
 
