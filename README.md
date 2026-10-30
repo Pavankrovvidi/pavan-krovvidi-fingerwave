@@ -88,6 +88,21 @@ python examples/quickstart.py        # pretrained demo -> quickstart.png
 python benchmarks/run_benchmark.py   # full benchmark (~1.5 h on a 2-core CPU)
 ```
 
+## Adapting FingerWave to your own data
+
+1. **Choose the field Ψ.** Headless orientations (fibres, ridges, layers): doubled angle `Ψ = A·e^{i2θ}`. True directions (flow, movement): single angle `Ψ = A·e^{iθ}`. Plain quantities (temperature, potential): one channel, diffusion only.
+2. **Prepare the inputs.** Give the encoder the raw signal, a rough estimate of the field and a quality measure (coherence, signal-to-noise ratio, sensor presence), and set `in_channels` to match.
+3. **Choose the constraint.** Set the target net index for your domain in `topological_loss`, or replace the charge term with the rule your data must obey.
+4. **Train and compare.** Report pixel error and a structural error rate against a same-size U-Net.
+
+```python
+from pavan_krovvidi_fingerwave import PavanKrovvidiFingerWaveNetwork, topological_loss
+model = PavanKrovvidiFingerWaveNetwork(in_channels=5)          # your inputs
+loss = ((model(x) - target) ** 2).mean() + 0.05 * topological_loss(model(x), target_index=0.0)
+```
+
+Chapter 8 of the [FingerWave Guide](docs/The_FingerWave_Guide_Pavan_Kumar_Krovvidi.pdf) explains each step in detail.
+
 ## Possible applications
 
 The method suits data that form a spatial field, carry direction, and are partly missing. Examples include latent fingerprints, diffusion MRI fibre orientation, cryo-EM map completion, and fast surrogates for electrostatics (Poisson–Boltzmann) in drug discovery. These applications are not yet tested.
