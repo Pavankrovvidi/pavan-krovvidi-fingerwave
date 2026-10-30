@@ -2,6 +2,7 @@
 
 > *"Every life has a unique print. So does every prediction."*
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pavankrovvidi/pavan-krovvidi-fingerwave/blob/main/examples/FingerWave_Quickstart.ipynb)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](pyproject.toml)
 [![Author](https://img.shields.io/badge/author-Pavan%20Kumar%20Krovvidi-1f6f8b)](https://www.linkedin.com/in/pavan-kumar-krovvidi-927290250)
@@ -11,6 +12,8 @@
 **A biologically inspired, boundary-seeded neural PDE, conceived and created by [Pavan Kumar Krovvidi](https://www.linkedin.com/in/pavan-kumar-krovvidi-927290250).**
 
 Your fingerprints were drawn in the womb by waves. Ridges begin at a few reliable initiation sites on the fingertip and travel inward. Where the waves meet, they form the cores and deltas that make every print unique. The FingerWave Neural Network brings that process into AI. It **starts from what it can trust, propagates information along the structure, and conserves topology**.
+
+**▶️ Try it in your browser in 2 minutes, no install needed:** [Open the FingerWave notebook in Google Colab](https://colab.research.google.com/github/Pavankrovvidi/pavan-krovvidi-fingerwave/blob/main/examples/FingerWave_Quickstart.ipynb). Repair damaged fingerprints, cut your own holes into them, and measure the results.
 
 ```bash
 pip install pavan-krovvidi-fingerwave
@@ -56,7 +59,7 @@ Orientation is stored as a doubled-angle field `Ψ = A·e^{i2θ}`, so fingerprin
 - **Boundary seeding is the essential ingredient.** Without it, training became unstable.
 - Learned anisotropy gave **no extra benefit** on this benchmark. This is reported honestly.
 
-**Next steps:** validation on real fingerprint databases (FVC, NIST), GPU-scale training, and a faster PDE (training is currently about 3.6× slower than the U-Net). See the full [research report](docs/FingerWave_Research_Report_Pavan_Kumar_Krovvidi.pdf).
+**Next steps:** validation on real fingerprint databases (FVC, NIST), GPU-scale training, and a faster PDE (training is currently about 3.6× slower than the U-Net). See the full [research report](docs/FingerWave_Research_Report_Pavan_Kumar_Krovvidi.pdf) and the free [FingerWave Guide](docs/The_FingerWave_Guide_Pavan_Kumar_Krovvidi.pdf) (theory, mathematics and industry applications).
 
 ## Package contents
 
@@ -81,6 +84,7 @@ pk.cite()    # citation
 pip install -e ".[dev]"
 pytest                               # physics, topology and network tests
 python examples/quickstart.py        # pretrained demo -> quickstart.png
+# or open examples/FingerWave_Quickstart.ipynb (Colab notebook)
 python benchmarks/run_benchmark.py   # full benchmark (~1.5 h on a 2-core CPU)
 ```
 
